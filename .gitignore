@@ -73,3 +73,87 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+
+# ───────────────────────────────
+# Node
+# ───────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+.tmp/
+coverage/
+
+# ───────────────────────────────
+# React Native / Metro
+# ───────────────────────────────
+.expo/
+.expo-shared/
+*.iml
+*.log
+watchman/
+buck-out/
+*.keystore
+*.aab
+*.apk
+
+# ───────────────────────────────
+# Android
+# ───────────────────────────────
+android/.gradle/
+android/.idea/
+android/.cxx/
+android/build/
+android/app/build/
+android/app/.cxx/
+android/local.properties
+android/app/release/
+android/app/debug/
+android/gradle/
+android/.project
+android/.settings/
+
+# ───────────────────────────────
+# iOS
+# ───────────────────────────────
+ios/Pods/
+ios/build/
+ios/DerivedData/
+ios/.idea/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# ───────────────────────────────
+# Ruby / Bundler
+# ───────────────────────────────
+vendor/
+.bundle/
+.ruby-version
+
+# ───────────────────────────────
+# Editor / Sistema
+# ───────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# ───────────────────────────────
+# Otros
+# ───────────────────────────────
+*.zip
+*.tgz
+*.bak
+*.tmp
+*.swp
